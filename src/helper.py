@@ -66,3 +66,6 @@ def check_all_diagonals(A):
         if diagonal_sum > 1:
             return False
     return True
+
+def is_board_valid(A):
+    return check_all_rows(A) and check_all_columns(A) and check_all_diagonals(A)
