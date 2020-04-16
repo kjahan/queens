@@ -14,6 +14,7 @@ def solve(chess_board, col_inx):
 
 
 def main():
+    # specify your chess board size
     chess_board = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
     solve(chess_board, 0)
 
